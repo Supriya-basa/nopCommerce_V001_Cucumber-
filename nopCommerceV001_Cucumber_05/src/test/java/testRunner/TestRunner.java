@@ -14,12 +14,10 @@ import cucumber.api.junit.Cucumber;
 		monochrome=true,
 		plugin= {"pretty",
 				"html:test-output"},
-		tags= {"@sanity,@regression"}
+		tags= {"@sanity"}
 		)
 //,".//Features/Customers.feature
 public class TestRunner {
 
 }
 
-
-//0ddc330314934f6dbaa3d0ee3c5bb903

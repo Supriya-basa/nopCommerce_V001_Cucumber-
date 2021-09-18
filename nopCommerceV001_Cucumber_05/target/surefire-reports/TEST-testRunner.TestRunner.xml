@@ -1,147 +1,73 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="44" failures="0" name="testRunner.TestRunner" time="0.007" errors="0" skipped="0">
+<testsuite tests="44" failures="0" name="testRunner.TestRunner" time="0.013" errors="0" skipped="0">
   <properties>
-    <property name="JOB_NAME" value="nopCommerce_V001_Cucumber"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/nopCommerce_V001_Cucumber/2/display/redirect?page=tests"/>
-    <property name="NUMBER_OF_PROCESSORS" value="8"/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="JENKINS_HOME" value="C:\Users\LVSS\.jenkins"/>
-    <property name="HUDSON_SERVER_COOKIE" value="5dd706f1ef731de9"/>
-    <property name="POM_ARTIFACTID" value="nopCommerceV001_Cucumber_05"/>
-    <property name="os.name" value="Windows 10"/>
-    <property name="EXECUTOR_NUMBER" value="0"/>
-    <property name="sun.desktop" value="windows"/>
-    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
-    <property name="POM_DISPLAYNAME" value="nopCommerceV001_Cucumber_05"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="TEMP" value="C:\Users\LVSS\AppData\Local\Temp"/>
-    <property name="NODE_LABELS" value="built-in"/>
-    <property name="java.runtime.version" value="11.0.2+9-LTS"/>
-    <property name="user.name" value="LVSS"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
-    <property name="ProgramFiles" value="C:\Program Files"/>
-    <property name="PROMPT" value="$P$G"/>
-    <property name="user.language" value="en"/>
-    <property name="JOB_BASE_NAME" value="nopCommerce_V001_Cucumber"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/nopCommerce_V001_Cucumber/2/display/redirect?page=changes"/>
-    <property name="BUILD_DISPLAY_NAME" value="#2"/>
-    <property name="OneDrive" value="C:\Users\LVSS\OneDrive"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.2\bin"/>
-    <property name="java.vm.compressedOopsMode" value="32-bit"/>
-    <property name="LOCALAPPDATA" value="C:\Users\LVSS\AppData\Local"/>
-    <property name="java.version" value="11.0.2"/>
-    <property name="user.timezone" value="Asia/Calcutta"/>
-    <property name="PROCESSOR_LEVEL" value="6"/>
-    <property name="USERNAME" value="LVSS"/>
-    <property name="sun.arch.data.model" value="64"/>
-    <property name="NODE_NAME" value="built-in"/>
-    <property name="BUILD_ID" value="2"/>
-    <property name="sun.cpu.isalist" value="amd64"/>
-    <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="maven.conf" value="C:\Selenium required Stuff\apache-maven-3.6.3\conf"/>
-    <property name="HOMEDRIVE" value="C:"/>
-    <property name="file.separator" value="\"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="java.class.version" value="55.0"/>
-    <property name="=::" value="::\"/>
-    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
-    <property name="user.country" value="IN"/>
-    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.2"/>
-    <property name="java.vm.info" value="mixed mode"/>
-    <property name="os.version" value="10.0"/>
-    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/nopCommerce_V001_Cucumber/2/display/redirect"/>
-    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
-    <property name="TMP" value="C:\Users\LVSS\AppData\Local\Temp"/>
-    <property name="path.separator" value=";"/>
-    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/nopCommerce_V001_Cucumber/2/display/redirect?page=artifacts"/>
-    <property name="java.vm.version" value="11.0.2+9-LTS"/>
-    <property name="user.variant" value=""/>
-    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
-    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/nopCommerce_V001_Cucumber/display/redirect"/>
-    <property name="USERDOMAIN_ROAMINGPROFILE" value="DESKTOP-8A8LPPA"/>
-    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
-    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk-11.0.2"/>
-    <property name="ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
-    <property name="HOMEPATH" value="\Users\LVSS"/>
-    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
-    <property name="POM_PACKAGING" value="jar"/>
-    <property name="COMPUTERNAME" value="DESKTOP-8A8LPPA"/>
-    <property name="user.script" value=""/>
-    <property name="POM_GROUPID" value="nopCommerceV001_Cucumber"/>
-    <property name="user.home" value="C:\Users\LVSS"/>
-    <property name="PUBLIC" value="C:\Users\Public"/>
-    <property name="BUILD_TAG" value="jenkins-nopCommerce_V001_Cucumber-2"/>
-    <property name="JENKINS_SERVER_COOKIE" value="5dd706f1ef731de9"/>
-    <property name="HUDSON_URL" value="http://localhost:8080/"/>
-    <property name="ProgramData" value="C:\ProgramData"/>
-    <property name="java.version.date" value="2019-01-15"/>
-    <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="USERPROFILE" value="C:\Users\LVSS"/>
-    <property name="CLASSPATH" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Selenium required Stuff\apache-maven-3.6.3/bin;C:\Program Files\Java\jdk-11.0.2/bin;C:\Program Files\Java\jdk-11.0.2/bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jre-10.0.2\bin;C:\Program Files\Java\jdk-11.0.2\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Users\LVSS\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\LVSS\AppData\Local\Programs\Python\Python38\;C:\Users\LVSS\AppData\Local\Microsoft\WindowsApps;C:\Users\LVSS\AppData\Local\Programs\Microsoft VS Code\bin;C:\Selenium required Stuff\apache-maven-3.6.3\bin;."/>
-    <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="APPDATA" value="C:\Users\LVSS\AppData\Roaming"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="maven.home" value="C:\Selenium required Stuff\apache-maven-3.6.3"/>
-    <property name="java.class.path" value="C:\Users\LVSS\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;C:\Selenium required Stuff\apache-maven-3.6.3\boot\plexus-classworlds-2.6.0.jar;C:\Selenium required Stuff\apache-maven-3.6.3/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Selenium required Stuff\apache-maven-3.6.3 C:\Users\LVSS\.jenkins\war\WEB-INF\lib\remoting-4.10.jar C:\Users\LVSS\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\LVSS\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 62202"/>
-    <property name="Path" value="C:\Program Files\Java\jdk-11.0.2/bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jre-10.0.2\bin;C:\Program Files\Java\jdk-11.0.2\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Users\LVSS\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\LVSS\AppData\Local\Programs\Python\Python38\;C:\Users\LVSS\AppData\Local\Microsoft\WindowsApps;C:\Users\LVSS\AppData\Local\Programs\Microsoft VS Code\bin;C:\Selenium required Stuff\apache-maven-3.6.3\bin"/>
-    <property name="jdk.debug" value="release"/>
-    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="PATH+JDK" value="C:\Program Files\Java\jdk-11.0.2/bin"/>
-    <property name="SESSIONNAME" value="Console"/>
-    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 142 Stepping 10, GenuineIntel"/>
-    <property name="java.vm.specification.version" value="11"/>
-    <property name="M2_HOME" value="C:\Selenium required Stuff\apache-maven-3.6.3"/>
-    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vm.version" value="11.0.2+9-LTS"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.2\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\LVSS\Documents\GitHub\nopCommerce_V001_Cucumber-\nopCommerceV001_Cucumber_05"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="OS" value="Windows_NT"/>
-    <property name="CI" value="true"/>
-    <property name="java.io.tmpdir" value="C:\Users\LVSS\AppData\Local\Temp\"/>
-    <property name="HUDSON_HOME" value="C:\Users\LVSS\.jenkins"/>
-    <property name="PATH+MAVEN" value="C:\Selenium required Stuff\apache-maven-3.6.3/bin"/>
-    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
-    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/nopCommerce_V001_Cucumber/2/"/>
-    <property name="SystemRoot" value="C:\WINDOWS"/>
-    <property name="os.arch" value="amd64"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\LVSS\Documents\GitHub\nopCommerce_V001_Cucumber-\nopCommerceV001_Cucumber_05"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="11.0.2+9-LTS"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="user.dir" value="C:\Users\LVSS\eclipse-workspace\nopCommerceV001_Cucumber_05"/>
-    <property name="JOB_URL" value="http://localhost:8080/job/nopCommerce_V001_Cucumber/"/>
-    <property name="LOGONSERVER" value="\\DESKTOP-8A8LPPA"/>
-    <property name="USERDOMAIN" value="DESKTOP-8A8LPPA"/>
-    <property name="MAVEN_HOME" value="C:\Selenium required Stuff\apache-maven-3.6.3"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\LVSS\AppData\Local\Temp\"/>
     <property name="line.separator" value="
 "/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="2"/>
-    <property name="PROCESSOR_REVISION" value="8e0a"/>
-    <property name="JENKINS_URL" value="http://localhost:8080/"/>
-    <property name="ProgramW6432" value="C:\Program Files"/>
-    <property name="windir" value="C:\WINDOWS"/>
-    <property name="=C:" value="C:\Jenkins"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Selenium required Stuff\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jre-10.0.2\bin;C:\Program Files\Java\jdk-11.0.2\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Users\LVSS\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\LVSS\AppData\Local\Programs\Python\Python38\;C:\Users\LVSS\AppData\Local\Microsoft\WindowsApps;C:\Users\LVSS\AppData\Local\Programs\Microsoft VS Code\bin;C:\Selenium required Stuff\apache-maven-3.6.3\bin;C:\Users\LVSS\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="maven.conf" value="C:\Selenium required Stuff\apache-maven-3.6.3\bin\../conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Selenium required Stuff\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\LVSS"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="file.encoding" value="Cp1252"/>
-    <property name="SystemDrive" value="C:"/>
-    <property name="maven3.interceptor" value="C:\Users\LVSS\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
-    <property name="WORKSPACE_TMP" value="C:\Users\LVSS\.jenkins\workspace\nopCommerce_V001_Cucumber@tmp"/>
-    <property name="WORKSPACE" value="C:\Users\LVSS\.jenkins\workspace\nopCommerce_V001_Cucumber"/>
-    <property name="maven3.interceptor.common" value="C:\Users\LVSS\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar"/>
-    <property name="PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules"/>
     <property name="java.specification.version" value="11"/>
-    <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
+    <property name="user.name" value="LVSS"/>
+    <property name="java.class.path" value="C:\Selenium required Stuff\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.2"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.2"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="maven.home" value="C:\Selenium required Stuff\apache-maven-3.6.3\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2019-01-15"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
     <property name="java.vendor.version" value="18.9"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Scenario: Add a new Customer" name="Given User Launch Chrome Browser" time="0.003"/>
+  <testcase classname="Scenario: Add a new Customer" name="Given User Launch Chrome Browser" time="0.001"/>
   <testcase classname="Scenario: Add a new Customer" name="When User opens url &quot;https://admin-demo.nopcommerce.com/login&quot;" time="0"/>
-  <testcase classname="Scenario: Add a new Customer" name="And User enters Email as &quot;admin@yourstore.com&quot; and Password as &quot;admin&quot;" time="0.001"/>
+  <testcase classname="Scenario: Add a new Customer" name="And User enters Email as &quot;admin@yourstore.com&quot; and Password as &quot;admin&quot;" time="0"/>
   <testcase classname="Scenario: Add a new Customer" name="And Click on Login" time="0"/>
   <testcase classname="Scenario: Add a new Customer" name="Then User can view Dashboard" time="0"/>
   <testcase classname="Scenario: Add a new Customer" name="When User click on customers Menu" time="0"/>
@@ -152,7 +78,7 @@
   <testcase classname="Scenario: Add a new Customer" name="And click on save button" time="0"/>
   <testcase classname="Scenario: Add a new Customer" name="Then User can view confirmation message &quot;The new customer has been added successfully.&quot;" time="0"/>
   <testcase classname="Scenario: Add a new Customer" name="And close browser" time="0"/>
-  <testcase classname="Scenario: Add a new Customer" name="Scenario: Add a new Customer" time="0.001"/>
+  <testcase classname="Scenario: Add a new Customer" name="Scenario: Add a new Customer" time="0.004"/>
   <testcase classname="Scenario: Search customer by EmailID" name="Given User Launch Chrome Browser" time="0"/>
   <testcase classname="Scenario: Search customer by EmailID" name="When User opens url &quot;https://admin-demo.nopcommerce.com/login&quot;" time="0"/>
   <testcase classname="Scenario: Search customer by EmailID" name="And User enters Email as &quot;admin@yourstore.com&quot; and Password as &quot;admin&quot;" time="0"/>
@@ -164,23 +90,23 @@
   <testcase classname="Scenario: Search customer by EmailID" name="When Click on search button" time="0"/>
   <testcase classname="Scenario: Search customer by EmailID" name="Then User should found Email in the search table" time="0"/>
   <testcase classname="Scenario: Search customer by EmailID" name="And close browser" time="0"/>
-  <testcase classname="Scenario: Search customer by EmailID" name="Scenario: Search customer by EmailID" time="0.001"/>
+  <testcase classname="Scenario: Search customer by EmailID" name="Scenario: Search customer by EmailID" time="0.002"/>
   <testcase classname="Scenario: Successful Login with Valid credentials" name="Given User Launch Chrome Browser" time="0"/>
   <testcase classname="Scenario: Successful Login with Valid credentials" name="When User opens url &quot;https://admin-demo.nopcommerce.com/login&quot;" time="0"/>
-  <testcase classname="Scenario: Successful Login with Valid credentials" name="And User enters Email as &quot;admin@yourstore.com&quot; and Password as &quot;admin&quot;" time="0.001"/>
+  <testcase classname="Scenario: Successful Login with Valid credentials" name="And User enters Email as &quot;admin@yourstore.com&quot; and Password as &quot;admin&quot;" time="0"/>
   <testcase classname="Scenario: Successful Login with Valid credentials" name="And Click on Login" time="0"/>
   <testcase classname="Scenario: Successful Login with Valid credentials" name="Then Page Title should be &quot;Dashboard / nopCommerce administration&quot;" time="0"/>
-  <testcase classname="Scenario: Successful Login with Valid credentials" name="When User click on Logout link" time="0"/>
+  <testcase classname="Scenario: Successful Login with Valid credentials" name="When User click on Logout link" time="0.001"/>
   <testcase classname="Scenario: Successful Login with Valid credentials" name="Then Page Title should be &quot;Your store. Login&quot;" time="0"/>
-  <testcase classname="Scenario: Successful Login with Valid credentials" name="And close browser" time="0"/>
-  <testcase classname="Scenario: Successful Login with Valid credentials" name="Scenario: Successful Login with Valid credentials" time="0"/>
+  <testcase classname="Scenario: Successful Login with Valid credentials" name="And close browser" time="0.001"/>
+  <testcase classname="Scenario: Successful Login with Valid credentials" name="Scenario: Successful Login with Valid credentials" time="0.001"/>
   <testcase classname="| admin@yourstore.com | admin |" name="Given User Launch Chrome Browser" time="0"/>
   <testcase classname="| admin@yourstore.com | admin |" name="When User opens url &quot;https://admin-demo.nopcommerce.com/login&quot;" time="0"/>
   <testcase classname="| admin@yourstore.com | admin |" name="And User enters Email as &quot;admin@yourstore.com&quot; and Password as &quot;admin&quot;" time="0"/>
   <testcase classname="| admin@yourstore.com | admin |" name="And Click on Login" time="0"/>
   <testcase classname="| admin@yourstore.com | admin |" name="Then Page Title should be &quot;Dashboard / nopCommerce administration&quot;" time="0"/>
-  <testcase classname="| admin@yourstore.com | admin |" name="When User click on Logout link" time="0"/>
+  <testcase classname="| admin@yourstore.com | admin |" name="When User click on Logout link" time="0.001"/>
   <testcase classname="| admin@yourstore.com | admin |" name="Then Page Title should be &quot;Your store. Login&quot;" time="0"/>
   <testcase classname="| admin@yourstore.com | admin |" name="And close browser" time="0"/>
-  <testcase classname="| admin@yourstore.com | admin |" name="| admin@yourstore.com | admin |" time="0"/>
+  <testcase classname="| admin@yourstore.com | admin |" name="| admin@yourstore.com | admin |" time="0.002"/>
 </testsuite>

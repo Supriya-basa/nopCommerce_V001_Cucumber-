@@ -1,8 +1,8 @@
-C:\Users\LVSS\eclipse-workspace\nopCommerceV001_Cucumber_05\src\test\java\pageObjects\AddCustomerPage.java
-C:\Users\LVSS\eclipse-workspace\nopCommerceV001_Cucumber_05\src\test\java\stepDefinitions\StepsLogin.java
-C:\Users\LVSS\eclipse-workspace\nopCommerceV001_Cucumber_05\src\test\java\testRunner\TestRunner.java
-C:\Users\LVSS\eclipse-workspace\nopCommerceV001_Cucumber_05\src\test\java\pageObjects\SearchCustomerPage.java
-C:\Users\LVSS\eclipse-workspace\nopCommerceV001_Cucumber_05\src\test\java\stepDefinitions\BaseClass.java
-C:\Users\LVSS\eclipse-workspace\nopCommerceV001_Cucumber_05\src\test\java\pageObjects\LoginPage.java
-C:\Users\LVSS\eclipse-workspace\nopCommerceV001_Cucumber_05\src\test\java\stepDefinitions\SeleniumTest.java
-C:\Users\LVSS\eclipse-workspace\nopCommerceV001_Cucumber_05\src\test\java\utilities\WaitHelper.java
+C:\Users\LVSS\Documents\GitHub\nopCommerce_V001_Cucumber-\nopCommerceV001_Cucumber_05\src\test\java\stepDefinitions\BaseClass.java
+C:\Users\LVSS\Documents\GitHub\nopCommerce_V001_Cucumber-\nopCommerceV001_Cucumber_05\src\test\java\stepDefinitions\StepsLogin.java
+C:\Users\LVSS\Documents\GitHub\nopCommerce_V001_Cucumber-\nopCommerceV001_Cucumber_05\src\test\java\utilities\WaitHelper.java
+C:\Users\LVSS\Documents\GitHub\nopCommerce_V001_Cucumber-\nopCommerceV001_Cucumber_05\src\test\java\pageObjects\AddCustomerPage.java
+C:\Users\LVSS\Documents\GitHub\nopCommerce_V001_Cucumber-\nopCommerceV001_Cucumber_05\src\test\java\testRunner\TestRunner.java
+C:\Users\LVSS\Documents\GitHub\nopCommerce_V001_Cucumber-\nopCommerceV001_Cucumber_05\src\test\java\stepDefinitions\SeleniumTest.java
+C:\Users\LVSS\Documents\GitHub\nopCommerce_V001_Cucumber-\nopCommerceV001_Cucumber_05\src\test\java\pageObjects\LoginPage.java
+C:\Users\LVSS\Documents\GitHub\nopCommerce_V001_Cucumber-\nopCommerceV001_Cucumber_05\src\test\java\pageObjects\SearchCustomerPage.java

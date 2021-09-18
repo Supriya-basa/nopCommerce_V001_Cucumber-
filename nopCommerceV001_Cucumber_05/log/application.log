@@ -251,3 +251,29 @@
 2021-09-18 06:00:03,115 [main] INFO nopCommerce - *****Started Login*****
 2021-09-18 06:00:09,496 [main] INFO nopCommerce - *****Login passed******
 2021-09-18 06:00:13,047 [main] INFO nopCommerce - *****Login passed******
+2021-09-18 17:19:51,894 [main] INFO nopCommerce - ******Launching URL*******
+2021-09-18 17:19:53,934 [main] INFO nopCommerce - *****Opening URL*****
+2021-09-18 17:19:55,685 [main] INFO nopCommerce - *****Providing login details****
+2021-09-18 17:19:55,956 [main] INFO nopCommerce - *****Started Login*****
+2021-09-18 17:20:15,243 [main] INFO nopCommerce - *****Adding a new customer******
+2021-09-18 17:20:15,244 [main] INFO nopCommerce - *****Providing information******
+2021-09-18 17:20:28,319 [main] INFO nopCommerce - *****Saving customer data******
+2021-09-18 17:20:35,109 [main] INFO nopCommerce - ******Launching URL*******
+2021-09-18 17:20:35,743 [main] INFO nopCommerce - *****Opening URL*****
+2021-09-18 17:20:38,964 [main] INFO nopCommerce - *****Providing login details****
+2021-09-18 17:20:39,181 [main] INFO nopCommerce - *****Started Login*****
+2021-09-18 17:20:55,914 [main] INFO nopCommerce - *****Searching customer by Email ID******
+2021-09-18 17:20:56,172 [main] INFO nopCommerce - *****Search starts******
+2021-09-18 17:20:59,322 [main] INFO nopCommerce - *****Checking the search results displayed******
+2021-09-18 17:21:03,318 [main] INFO nopCommerce - ******Launching URL*******
+2021-09-18 17:21:03,343 [main] INFO nopCommerce - *****Opening URL*****
+2021-09-18 17:21:05,784 [main] INFO nopCommerce - *****Providing login details****
+2021-09-18 17:21:05,966 [main] INFO nopCommerce - *****Started Login*****
+2021-09-18 17:21:13,484 [main] INFO nopCommerce - *****Login passed******
+2021-09-18 17:21:15,064 [main] INFO nopCommerce - *****Login passed******
+2021-09-18 17:21:18,683 [main] INFO nopCommerce - ******Launching URL*******
+2021-09-18 17:21:18,710 [main] INFO nopCommerce - *****Opening URL*****
+2021-09-18 17:21:21,602 [main] INFO nopCommerce - *****Providing login details****
+2021-09-18 17:21:21,790 [main] INFO nopCommerce - *****Started Login*****
+2021-09-18 17:21:28,640 [main] INFO nopCommerce - *****Login passed******
+2021-09-18 17:21:33,435 [main] INFO nopCommerce - *****Login passed******
