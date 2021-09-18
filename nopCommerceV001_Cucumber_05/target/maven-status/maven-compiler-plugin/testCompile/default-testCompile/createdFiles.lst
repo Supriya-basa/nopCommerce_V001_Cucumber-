@@ -1,0 +1,8 @@
+stepDefinitions\SeleniumTest.class
+pageObjects\LoginPage.class
+pageObjects\SearchCustomerPage.class
+testRunner\TestRunner.class
+stepDefinitions\BaseClass.class
+utilities\WaitHelper.class
+stepDefinitions\StepsLogin.class
+pageObjects\AddCustomerPage.class
